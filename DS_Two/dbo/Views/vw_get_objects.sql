@@ -1,2 +1,2 @@
 ﻿CREATE VIEW [dbo].[vw_get_objects]
-	AS SELECT * FROM INFORMATION_SCHEMA.tables
+as select * from dbo.Log_Shrink_Stats
