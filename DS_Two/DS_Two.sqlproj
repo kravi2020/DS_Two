@@ -61,11 +61,13 @@
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
     <Folder Include="Scripts" />
+    <Folder Include="dbo\Procedures" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Blocking_Sessions.sql" />
     <Build Include="dbo\Tables\Log_Shrink_Stats.sql" />
     <Build Include="dbo\Tables\SQLTest.sql" />
+    <Build Include="dbo\Procedures\usp_list_tables.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\Deploy.ps1" />
