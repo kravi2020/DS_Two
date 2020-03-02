@@ -2,6 +2,7 @@
     [databasename]  [sysname]      NULL,
     [command]       VARCHAR (2000) NULL,
     [Startdatetime] DATETIME       CONSTRAINT [DF__Log_Shrin__Start__25869641] DEFAULT (getdate()) NULL,
-    [EndDateTime]   DATETIME       NULL
+    [EndDateTime]   DATETIME       NULL,
+    [LogFileName]   Varchar(10)    NULL
 );
 
