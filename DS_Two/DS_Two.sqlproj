@@ -62,6 +62,7 @@
     <Folder Include="dbo\Tables\" />
     <Folder Include="Scripts" />
     <Folder Include="dbo\Procedures" />
+    <Folder Include="dbo\Views" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Blocking_Sessions.sql" />
@@ -69,6 +70,7 @@
     <Build Include="dbo\Tables\SQLTest.sql" />
     <Build Include="dbo\Procedures\usp_list_tables.sql" />
     <Build Include="dbo\Procedures\usp_list_procedures.sql" />
+    <Build Include="dbo\Views\vw_get_objects.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\Deploy.ps1" />
