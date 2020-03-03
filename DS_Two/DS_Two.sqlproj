@@ -71,7 +71,7 @@
     <Build Include="dbo\Procedures\usp_list_tables.sql" />
     <Build Include="dbo\Procedures\usp_list_procedures.sql" />
     <Build Include="dbo\Views\vw_get_objects.sql" />
-    <Build Include="dbo\Tables\Table1.sql" />
+    <Build Include="dbo\Tables\tblInfo.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\Deploy.ps1" />
